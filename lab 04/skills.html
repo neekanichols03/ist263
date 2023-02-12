@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Skills</title>
+        <style>
+            table, th, td {border: 1px solid pink}
+        </style>
+    </head>
+    <body>
+       <table>
+            <caption>Technical Skills</caption>
+            <tr>
+                <th>Category</th>
+                <th>Skill</th>
+                <th>Competancy Level</th>
+            </tr>
+            <tr>
+                <td>Computer Programming Languages</td>
+                <td>Python</td>
+                <td>Beginner</td>
+            </tr>
+            <tr>
+                <td>Computer Programming Languages</td>
+                <td>JavaScript</td>
+                <td>Beginner</td>
+            </tr>
+            <tr>
+                <td>Computer Programming Languages</td>
+                <td>HTML</td>
+                <td>Intermediate</td>
+            </tr>
+            <tr>
+                <td>Microsoft</td>
+                <td>Excel</td>
+                <td>Intermediate</td>
+            </tr>
+            <tr>
+                <td>Graphic Design</td>
+                <td>Web Design</td>
+                <td>Beginner</td>
+            </tr>
+            <tr>
+                <td>Graphic Design</td>
+                <td>Publication and Typographic Design.</td>
+                <td>Want to learn</td>
+            </tr>
+            <tr>
+                <td>Photography</td>
+                <td>Fashion Photography</td>
+                <td>Want to learn</td>
+            </tr>
+            <tr>
+                <td>Photography</td>
+                <td>Portrait Photography</td>
+                <td>Want to learn</td>
+            </tr>
+            <tr>
+                <td>Finances</td>
+                <td>Financial Management</td>
+                <td>Beginner</td>
+            </tr>
+            <tr>
+                <td>Finances</td>
+                <td>Accounting</td>
+                <td>Beginner</td>
+            </tr>
+       </table> 
+       <br>
+       <form action="https://formspree.io/f/xpzepyry"method="POST">
+            <lable for="fullname">Full Name:</lable>
+            <input type="text" id="fullname" name="fullname">
+            <br>
+            <p>Choose which category you would likemy services in</p>
+
+            <br>
+            <label for="category">Category Option</label>
+            <select id="category" name="category">
+                <option></option>
+                <option value="computer programming">Computer Programming Languages</option>
+                <option value="microsoft">Microsoft</option>
+                <option value="graphic design">Graphic Design</option>
+                <option value="photography">Photography</option>
+                <option value="finances">Finances</option>
+            </select>
+            <br>
+            <p>Below in explain in detail what the job you would like for me to do</p>
+            <label for="explanation">Type Response here</label>
+            <br>
+            <textarea id="explanation" name="explanation" rows="5" cols="50"></textarea>
+
+            <br>
+            <p>Would this assignment require me to be in-person or remote?</p>
+            <input type="radio" id="in-person" name="assignment" value="in-person">
+            <label for="in-person">in-person</label>
+            <input type="radio" id="remote" name="assignment" value="remote">
+            <label for="remote">remote</label>
+
+            <br>
+            <label for="assignmentrequest">Assignment Start Date:</label>
+            <input type="date" id="assignmentrequest" name="assignmentrequest">
+            <input type="submit" value="submit form">
+       </form>
+    </body>
+</html>
