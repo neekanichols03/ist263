@@ -1,0 +1,65 @@
+body {
+    background-color: #424530;
+}
+
+nav {
+    background-color: #f7ede2;
+}
+
+h1 {
+    color: #cf8e55;
+    ;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Cormorant Garamond', bold, serif;
+}
+
+h2,
+strong {
+    color: #cf8e55;
+    ;
+    font-family: 'Cormorant Garamond', bold, serif;
+}
+
+p {
+    font-family: 'Cormorant Garamond', serif;
+    color: #f7ede2;
+}
+
+.evenrow {
+    background-color: #bfaea4;
+    color: #383230;
+}
+
+.odd {
+    color: #f7ede2;
+}
+
+a {
+    color: #a58e74
+}
+
+a :visited {
+    color: #ffefcd;
+}
+
+label {
+    color: #f7ede2;
+}
+
+nav a {
+    color: #854621;
+}
+
+nav a :visited {
+    color: #cf8e55;
+}
+
+nav a:hover {
+    background-color: #e1daca;
+}
+
+nav {
+    padding: 10px;
+    margin-bottom: 30px;
+}
